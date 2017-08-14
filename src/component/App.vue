@@ -1,14 +1,21 @@
 <template>
-  <main>
-      <p>这是根组件</p>
-  </main>
+    <main>
+        <v-header></v-header>
+        <router-view></router-view>
+        <v-footer></v-footer>
+    </main>
 </template>
 <script>
-    export default{
-     
-
-        
+import Cheader from './home/header.vue'
+import Cfooter from './home/footer.vue'
+export default {
+    components: {
+        'v-header': Cheader,
+        'v-footer': Cfooter
     }
+
+
+}
 </script>
 <style>
 
