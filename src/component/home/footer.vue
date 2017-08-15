@@ -20,7 +20,7 @@
                 <span class="mui-tab-label">个人中心</span>
             </a>
         </nav>
-        <div></div>
+        <div></div>   <!-- 占位标签，以免遮挡中间内容 -->
     </footer>
 </template>
 <script>

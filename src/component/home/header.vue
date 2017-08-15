@@ -1,6 +1,7 @@
 <template>
     <header class="header">
         <mt-header fixed title="微商"></mt-header>
+        <div></div>  <!-- 占位标签，以免遮挡中间内容 -->
     </header>
 </template>
 <script>
